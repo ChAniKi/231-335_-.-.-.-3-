@@ -1,0 +1,34 @@
+﻿<Window x:Class="_231_335_Шматов.А.М._3_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_231_335_Шматов.А.М._3_"
+        mc:Ignorable="d"
+               Title="MainWindow" Height="500" Width="500">
+    <Grid x:Name="MainRoot">
+        <TextBox x:Name="textlabel" HorizontalAlignment="Left" Margin="150,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="75"/>
+        <Button x:Name="Button_1" Content="1" HorizontalAlignment="Left" Margin="150,200,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_1_Click"/>
+        <Button x:Name="Button_2" Content="2" HorizontalAlignment="Left" Margin="210,200,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_2_Click"/>
+        <Button x:Name="Button_3" Content="3" HorizontalAlignment="Left" Margin="270,200,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_3_Click"/>
+        <Button x:Name="Button_4" Content="4" HorizontalAlignment="Left" Margin="150,235,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_4_Click"/>
+        <Button x:Name="Button_5" Content="5" HorizontalAlignment="Left" Margin="210,235,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_5_Click"/>
+        <Button x:Name="Button_6" Content="6" HorizontalAlignment="Left" Margin="270,235,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_6_Click"/>
+        <Button x:Name="Button_7" Content="7" HorizontalAlignment="Left" Margin="150,270,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_7_Click"/>
+        <Button x:Name="Button_8" Content="8" HorizontalAlignment="Left" Margin="210,270,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_8_Click"/>
+        <Button x:Name="Button_9" Content="9" HorizontalAlignment="Left" Margin="270,270,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_9_Click"/>
+        <Button x:Name="Button_plus" Content="+" HorizontalAlignment="Left" Margin="330,200,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_plus_Click"/>
+        <Button x:Name="Button_minus" Content="-" HorizontalAlignment="Left" Margin="330,235,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_minus_Click"/>
+        <Button x:Name="Button_multi" Content="*" HorizontalAlignment="Left" Margin="330,270,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_multi_Click"/>
+        <Button x:Name="Button_eq" Content="=" HorizontalAlignment="Left" Margin="270,305,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_eq_Click"/>
+        <Button x:Name="Button_AC" Content="AC" HorizontalAlignment="Left" Margin="150,305,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_AC_Click"/>
+        <Button x:Name="Button_div" Content="/" HorizontalAlignment="Left" Margin="330,305,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_div_Click"/>
+        <Button x:Name="Button_0" Content="0" HorizontalAlignment="Left" Margin="210,305,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_0_Click"/>
+        <TextBox x:Name="history_label" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Height="193" AcceptsReturn="True" Margin="405,120,0,0"/>
+        <CheckBox x:Name="Check_box" Content="Включить запись операций" HorizontalAlignment="Left" Margin="88,345,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AC_one" Content="AC one" HorizontalAlignment="Left" Margin="270,340,0,0" VerticalAlignment="Top" Width="110" Height="25" Click="Button_AC_one_Click"/>
+        <RadioButton x:Name="ON" Content="Вкл доп элементы" HorizontalAlignment="Left" Margin="21,155,0,0" VerticalAlignment="Top" Width="124" Checked="RadioButton_Checked_1" IsChecked="True"/>
+        <RadioButton x:Name="OFF" Content="Выкл доп элементы" HorizontalAlignment="Left" Margin="21,138,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+
+    </Grid>
+</Window>
